@@ -1,0 +1,29 @@
+{
+  "name": "namora-whatsapp-flights",
+  "version": "1.0.0",
+  "description": "WhatsApp bot to search, book and pay for flights without leaving WhatsApp",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "chat": "node scripts/chat.js",
+    "test": "node --test test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w4leed69/Namora.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/w4leed69/Namora/issues"
+  },
+  "homepage": "https://github.com/w4leed69/Namora#readme",
+  "dependencies": {
+    "express": "^4.22.3",
+    "stripe": "^23.2.0"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20.12"
+  }
+}
