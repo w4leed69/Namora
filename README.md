@@ -83,6 +83,9 @@ use `ngrok http 3000`. Set `PUBLIC_URL` to that URL.
 ### 3. Flights with Duffel
 1. Sign up at <https://duffel.com> and create a **test** access token → `DUFFEL_ACCESS_TOKEN`, then set
    `FLIGHT_PROVIDER=duffel`. Test mode books against "Duffel Airways" with fake money.
+   Check the key with a live search: `npm run duffel:check -- LHE DXB 2026-12-25`.
+   Prices come back in your Duffel account's balance currency (set in the Duffel dashboard), which is also
+   the currency customers are charged in.
 2. To sell real tickets: complete Duffel's onboarding, top up your **balance**, and switch to a `duffel_live_` token.
 
 ### 4. Payments with Stripe

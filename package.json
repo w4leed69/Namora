@@ -7,7 +7,8 @@
     "start": "node src/server.js",
     "dev": "node --watch src/server.js",
     "chat": "node scripts/chat.js",
-    "test": "node --test test/*.test.js"
+    "test": "node --test test/*.test.js",
+    "duffel:check": "node scripts/duffel-check.js"
   },
   "repository": {
     "type": "git",
